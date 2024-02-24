@@ -52,7 +52,7 @@ TKMM integrates with multiple mod merging tools to support the seamless combinat
   - Subsequently redeveloped by [Mika](https://github.com/okmika) to enhance its capabilities and integration.
 
 * **Localization (Mals)**:
-  - Developed by [Arch Leaders](https://github.com/ArchLeaders). The [MalsMerger](https://github.com/ArchLeaders/MalsMerger), utilizing the new BYML library, is renowned for its speed and efficiency.
+  - Developed by [Arch Leaders](https://github.com/ArchLeaders). The [MalsMerger](https://github.com/ArchLeaders/MalsMerger), utilizing MessageStudio, is speedy and efficient.
 
 * **SARC Archives (.pack)**:
   - Crafted by [Mika](https://github.com/okmika). The [SARC and BYML Merger](https://github.com/okmika/TKMM-SARC) employs Arch Leaders' BYML library for improved performance and accuracy.
