@@ -30,14 +30,14 @@ jobs:
       - name: Install DocFX
         run: dotnet tool update -g docfx
 
-      - name: Move CNAME
-        run: mv CNAME wwwroot/_site/CNAME
-
       - name: Build DocFX
         run: docfx wwwroot/docfx.json
 
       - name: Setup Pages
         uses: actions/configure-pages@v4.0.0
+
+      - name: Move CNAME
+        run: mv CNAME wwwroot/_site/CNAME
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3.0.1
