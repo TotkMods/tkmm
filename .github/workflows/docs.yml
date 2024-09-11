@@ -30,6 +30,9 @@ jobs:
       - name: Install DocFX
         run: dotnet tool update -g docfx
 
+      - name: Move CNAME
+        run: mv CNAME wwwroot/_site/CNAME
+
       - name: Build DocFX
         run: docfx wwwroot/docfx.json
 
